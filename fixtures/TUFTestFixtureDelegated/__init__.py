@@ -1,3 +1,10 @@
+"""
+Contains targets which are signed by delegated roles.
+
+Expected Outcome: TUF clients should be able to successfully download and
+validate all targets in this fixture.
+"""
+
 from fixtures.builder import FixtureBuilder
 
 
